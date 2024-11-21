@@ -30,7 +30,7 @@ license=(
   AGPL3
 )
 depends=(
-  bash
+  'libcrash-bash'
 )
 provides=(
   "mk${_pkg}config=${pkgver}"
